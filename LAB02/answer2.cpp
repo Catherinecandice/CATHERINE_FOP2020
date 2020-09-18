@@ -7,6 +7,7 @@ int main(){
   // at = age this year
   // an = age next year
   int al, at, an;
+  int i = 1;
 
   //insert your current age
   cout << "Your age this year = ";
