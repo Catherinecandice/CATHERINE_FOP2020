@@ -11,13 +11,13 @@ int main(){
     //want to make sure to see the time includes Morning/Afternoon/Evening 
     //other than that, it's an error
     {
-    if ((time >= 00.00) && (time <= 11.59))
+    if ((time >= 0) && (time < 12))
       cout << "\nGood Morning!";
     
-    else if ((time >= 12.00) && (time <= 17.59))
+    else if ((time >= 12) && (time < 18))
       cout << "\nGood Afternoon!";
     
-    else if ((time >= 18.00) && (time <= 23.59))
+    else if ((time >= 18) && (time < 24))
       cout << "\nGood Evening!";
 
     else
