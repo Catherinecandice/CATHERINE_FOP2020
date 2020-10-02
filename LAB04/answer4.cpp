@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     //variables
     int weight, height;
-    double BMI;
+    float BMI;
 
     //insert your weight and height
     cout << "Your weight (in kg) = ";
