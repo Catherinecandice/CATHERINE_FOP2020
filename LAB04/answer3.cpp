@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     //variables of score
-    int num1, num2, num3, average;
+    float num1, num2, num3, average;
 
     //Insert the scores (each number is separated by a space)
     cout << "Insert 3 scores from scale 0 until 100 = ";
