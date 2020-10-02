@@ -8,11 +8,10 @@ int main(){
   cin >> num;
 
   //check if the number is even or odd
-  {
-  if (num % 2 == 0)
+  if (num % 2 == 0){
   cout << "\nThe number is EVEN!";
-  
-  else
+  }
+  else{
   cout << "\nThe number is ODD!";
   }
   
