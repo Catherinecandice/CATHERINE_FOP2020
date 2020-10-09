@@ -76,6 +76,7 @@ int main(){
     }
     //If user answer same as system answer
     if (au == as){
+      s++;
       cout << "\nYou are correct! Well Done!";
     }
     //Next question
