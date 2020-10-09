@@ -9,7 +9,8 @@ int main(){
  int id, ow; 
  int balance = 500;
  int option;
- int status, yes, no;
+ char status;
+ char y, n;
 
  //ATM transaction  
  cout << "Welcome to Bank ATM!\n";
@@ -29,29 +30,29 @@ int main(){
      break;
      
     case(2):
-     cout << "Input the amount of money to deposite = ";
+     cout << "\nInput the amount of money to deposite = ";
      cin >> id;
      balance = balance + id;
-     cout << "Your total balance is " << balance;
+     cout << "\nYour total balance is " << balance;
      break;
 
     case(3):
-     cout << "Input the amount of money to withdraw = ";
+     cout << "\nInput the amount of money to withdraw = ";
      cin >> ow;
      balance = balance - ow;
-     cout << "Your total balance is " << balance;
+     cout << "\nYour total balance is " << balance;
      break;
 
     case(4):
-     cout << "End your proccess? yes/no";
+     cout << "\nEnd your proccess? yes/no";
      cin >> status;
      break;
   }
   //after do the transaction
-  cout << "Want to go back to menu?";
+  cout << "\nWant to go back to menu?";
   cin >> status;
 
  }
- while(status == yes);
+ while(status == 'y');
  
 }
